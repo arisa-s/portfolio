@@ -9,6 +9,16 @@ class Garden extends Component {
     return (
       <div className="modal" id="gardenModal">
         <div className="container ajax-container modal-content">
+          <button
+            type="button"
+            className="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span className="float-right" aria-hidden="true">
+              &times;
+            </span>
+          </button>
           <h1 className="text-6 font-weight-600 text-center mb-4 font-bold">
             Garden Manager
           </h1>

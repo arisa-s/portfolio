@@ -56,7 +56,7 @@ class Header extends Component {
                 <li className="social-icons-github">
                   <a
                     data-toggle="tooltip"
-                    href="http://www.google.com/"
+                    href="https://github.com/arisa-s"
                     target="_blank"
                     title=""
                     data-original-title="GitHub"
