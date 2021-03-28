@@ -93,6 +93,8 @@ class Portofolio extends Component {
                         className="popup-ajax stretched-link"
                         data-toggle="modal"
                         data-target="#animatorModal"
+                        data-backdrop="static"
+                        data-keyboard="false"
                       ></a>
                       <Animator />
                       <div className="portfolio-overlay-details">

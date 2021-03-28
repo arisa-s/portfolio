@@ -19,7 +19,7 @@ class Contact extends Component {
             <h2 className="mb-3 text-5 text-uppercase text-center text-md-left">
               Send me a note
             </h2>
-            <form id="contact-form" action="php/mail.php" method="post">
+            <form id="contact-form" action="../php/mail.php" method="post">
               <div className="row">
                 <div className="col-xl-6">
                   <div className="form-group">
