@@ -68,9 +68,10 @@ class Camp extends Component {
               <h4 className="text-4 font-weight-600">Lesson learned:</h4>
               <p>
                 Since my project mate built the foundation of this app, I had to
-                learned to build on top of existing codebase. Also, I learn git
-                more in depth because three people were working on the same app
-                simotaneously (we worked from homw).
+                learned to build on top of existing codebase unlike my other
+                projects. Also, I learn git more in depth because three people
+                were working on the same app simotaneously (we worked from
+                home).
               </p>
 
               <ul className="list-style-2">
@@ -92,7 +93,7 @@ class Camp extends Component {
                     Git repo:
                   </span>
                   <a href="#" target="_blank">
-                    www.example.com
+                    https://github.com/CrizR/camps-react-client
                   </a>
                 </li>
               </ul>

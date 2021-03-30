@@ -47,11 +47,18 @@ class Politeness extends Component {
             <div className="col-sm-5">
               <h4 className="text-4 font-weight-600">Project Info:</h4>
               <p>
-                With this project, I built supervised machine learning model
-                that classifies text as 'impolite', 'neutral', or 'polite'.
+                This is my final project for NLP class. This notebook showcases
+                supervised machine learning model that classifies text as
+                'impolite', 'neutral', or 'polite'.
               </p>
               <h4 className="text-4 font-weight-600">Lesson learned:</h4>
-              <p></p>
+              <p>
+                Through this project, I had some chance to experiment with many
+                existing liberary to build desired model which included a lot of
+                readings. Having good understanding of basic concept of NLP
+                helped me to see advantage/limitation of each package, and
+                choose the right ones for my project.
+              </p>
 
               <ul className="list-style-2">
                 <li className="">
@@ -66,10 +73,13 @@ class Politeness extends Component {
                 </li>
                 <li className="">
                   <span className="text-dark font-weight-600 mr-2">
-                    Git repo:
+                    notebook:
                   </span>
-                  <a href="#" target="_blank">
-                    www.example.com
+                  <a
+                    href="https://nbviewer.jupyter.org/github/arisa-s/pc/blob/main/FinalProject_ArisaShiraishi.ipynb"
+                    target="_blank"
+                  >
+                    politeness classifier
                   </a>
                 </li>
               </ul>

@@ -6,8 +6,8 @@ class Header extends Component {
       <header id="header" className="sticky-top-slide">
         <nav className="primary-menu navbar navbar-expand-lg navbar-text-light bg-transparent border-bottom-0">
           <div className="container-fluid position-relative">
-            <div className="col-auto col-lg-2">
-              <a className="logo" href="index.html" title="Simone">
+            <div className="col-auto">
+              <a href="index.html" title="Simone">
                 {" "}
                 <h5 className="logo"> ＜アリサ_シライシ＞ </h5>{" "}
               </a>

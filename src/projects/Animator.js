@@ -53,11 +53,13 @@ class Animator extends Component {
               </p>
               <h4 className="text-4 font-weight-600">Lesson learned:</h4>
               <p>
-                Through this project, I applied some important concepts I leaned
-                in my object oriented programming class. I am not particularly
-                proud of my code here, but this project has a special place in
-                my heart as it is the first tangeble thing I built. This project
-                tought me the joy of building!
+                The goal of this project was to apply concepts I learned in OOD
+                class in practice. Looking back, I had to write some
+                unnecessarily complicated methods to manipulate shape object
+                which I could have avoided if I had spent more time on thinking
+                about the right abstraction for class repesenting shapes. This
+                struggle inspired me to spend more time on conceptual design
+                before writing actual code in the future project.
               </p>
 
               <ul className="list-style-2">
@@ -75,8 +77,8 @@ class Animator extends Component {
                   <span className="text-dark font-weight-600 mr-2">
                     Git repo:
                   </span>
-                  <a href="#" target="_blank">
-                    www.example.com
+                  <a href="https://github.com/arisa-s/animator" target="_blank">
+                    https://github.com/arisa-s/animator
                   </a>
                 </li>
               </ul>
