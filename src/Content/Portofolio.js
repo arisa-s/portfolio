@@ -66,11 +66,26 @@ const Portofolio = () => {
                   <div className="portfolio-overlay">
                     {" "}
                     <a
-                      data-toggle="modal"
-                      data-target="#campModal"
                       className="popup-ajax stretched-link"
+                      onClick={() => setIsCampOpen(true)}
                     ></a>
-                    <Camp />
+                    <ReactModal
+                      isOpen={isCampOpen}
+                      onRequestClose={() => setIsCampOpen(false)}
+                      overlayClassName="Overlay"
+                      className="container ajax-container modal-content"
+                    >
+                      <a>
+                        <span
+                          className="float-right"
+                          aria-hidden="true"
+                          onClick={() => setIsCampOpen(false)}
+                        >
+                          <i className="fas fa-times cross"></i>
+                        </span>
+                      </a>
+                      <Camp />
+                    </ReactModal>
                     <div className="portfolio-overlay-details">
                       <h5 className="text-white font-weight-400 font-bold">
                         Camp
@@ -96,13 +111,18 @@ const Portofolio = () => {
                     <ReactModal
                       isOpen={isAnimatorOpen}
                       onRequestClose={() => setIsAnimatorOpen(false)}
-                      contentLabel="Example Modal"
+                      overlayClassName="Overlay"
+                      className="container ajax-container modal-content"
                     >
-                      <button onClick={() => setIsAnimatorOpen(false)}>
-                        <span className="float-right" aria-hidden="true">
-                          &times;
+                      <a>
+                        <span
+                          className="float-right"
+                          aria-hidden="true"
+                          onClick={() => setIsAnimatorOpen(false)}
+                        >
+                          <i className="fas fa-times cross"></i>
                         </span>
-                      </button>
+                      </a>
                       <Animator />
                     </ReactModal>
                     <div className="portfolio-overlay-details">
@@ -125,10 +145,26 @@ const Portofolio = () => {
                     {" "}
                     <a
                       className="popup-ajax stretched-link"
-                      data-toggle="modal"
-                      data-target="#gardenModal"
+                      onClick={() => setIsGardenOpen(true)}
                     ></a>
-                    <Garden />
+                    <ReactModal
+                      isOpen={isGardenOpen}
+                      onRequestClose={() => setIsGardenOpen(false)}
+                      overlayClassName="Overlay"
+                      className="container ajax-container modal-content"
+                    >
+                      <a>
+                        <span
+                          className="float-right"
+                          aria-hidden="true"
+                          onClick={() => setIsGardenOpen(false)}
+                        >
+                          <i className="fas fa-times cross"></i>
+                        </span>
+                      </a>
+
+                      <Garden />
+                    </ReactModal>
                     <div className="portfolio-overlay-details">
                       <h5 className="text-white font-weight-400 font-bold">
                         Garden Manager
@@ -149,10 +185,26 @@ const Portofolio = () => {
                     {" "}
                     <a
                       className="popup-ajax stretched-link"
-                      data-toggle="modal"
-                      data-target="#politenessModal"
-                    />
-                    <Politeness />
+                      onClick={() => setIsPolitenessOpen(true)}
+                    ></a>
+                    <ReactModal
+                      isOpen={isPolitenessOpen}
+                      onRequestClose={() => setIsPolitenessOpen(false)}
+                      overlayClassName="Overlay"
+                      className="container ajax-container modal-content"
+                    >
+                      <a>
+                        <span
+                          className="float-right"
+                          aria-hidden="true"
+                          onClick={() => setIsPolitenessOpen(false)}
+                        >
+                          <i className="fas fa-times cross"></i>
+                        </span>
+                      </a>
+
+                      <Politeness />
+                    </ReactModal>
                     <div className="portfolio-overlay-details">
                       <h5 className="text-white font-weight-400 font-bold">
                         Politeness Classifier
