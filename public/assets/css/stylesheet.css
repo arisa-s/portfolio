@@ -2478,7 +2478,6 @@ hr {
 .hero-wrap .hero-mask,
 .hero-wrap .hero-bg,
 .hero-wrap .hero-bg-slideshow {
-  position: absolute;
   top: 0;
   left: 0;
   height: 100%;
