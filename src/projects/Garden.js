@@ -49,20 +49,20 @@ class Garden extends Component {
           <div className="col-sm-5">
             <h4 className="text-4 font-weight-600">Project Info:</h4>
             <p>
-              This is a Java Swing GUI application that helps gardeners to keep
-              track of their gardening work. Application allows users to add
-              their seed inventory, keep track of the growing process of each
-              plant, and manage their tasks. The UI is built with Java Swing GUI
-              and user inputs are stored in MySQL database.
+              This is a Java Swing / MySQL application that helps gardeners to
+              keep track of their gardening work. Application allows users to
+              add their seed inventory, keep track of the growing process of
+              each plant, and manage their tasks.
             </p>
             <h4 className="text-4 font-weight-600">Lesson learned:</h4>
             <p>
-              I learned the importance of planning well when designing data
-              schema. With this project, I focus on back-end work so I
-              designed/implemented a complex database that organizes eight data
-              domain. As I worked on the project, there were few adjustments I
-              needed to make to the database structure which was hard to do at
-              the halfway of the project
+              For this project, I focus on back-end work so I
+              designed/implemented a complex SQL database that organizes eight
+              data domains. Using SQL database (rather than non relational
+              database) forced me to contemplate on the data organization
+              structure upfront, and that helped me to think through the
+              conseptual design of the whole app before implementing. I think
+              his is a great advantage of SQL database.
             </p>
 
             <ul className="list-style-2">
