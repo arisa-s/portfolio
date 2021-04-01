@@ -37,18 +37,18 @@ class Animator extends Component {
             <h4 className="text-4 font-weight-600">Project Info:</h4>
             <p>
               Welcome to my very first CS project! This is a java application
-              build on swing UI framework where you can create 2D animations of
-              simple shapes via GUI.
+              build on the swing UI framework where you can create 2D animations
+              of simple shapes via a GUI.
             </p>
             <h4 className="text-4 font-weight-600">Lesson learned:</h4>
             <p>
               The goal of this project was to apply concepts I learned in OOD
               class in practice. Looking back, I had to write some unnecessarily
               complicated methods to manipulate shape object which I could have
-              avoided if I had spent more time on thinking about the right
-              abstraction for class repesenting shapes. This struggle inspired
-              me to spend more time on conceptual design before writing actual
-              code in the future project.
+              avoided if I had spent more time thinking about the right
+              abstraction for the class repesenting shapes. This struggle
+              inspired me to spend more time on conceptual design before writing
+              actual code in future projects.
             </p>
 
             <ul className="list-style-2">

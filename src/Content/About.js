@@ -28,21 +28,20 @@ class About extends Component {
                 {" "}
                 I'm originally from Tokyo, Japan, and have studied in many
                 amazing places including Lausanne, Gold Coast, Copenhagen,
-                Cambridge, and New York! I am currently a Senior at the
-                Northeastern University in Boston majoring Computer Sciene and
-                Economics with Philosophy minor, and am actively looking for an
-                opportunity after graduation in June.
+                Cambridge, and New York! I am currently a Senior at Northeastern
+                University in Boston majoring Computer Science and Economics
+                with a Philosophy minor, and am actively looking for
+                opportunities after graduation in June.
               </p>
               <p>
-                This website serves as my CS portofolio, please email me for my
-                CV if you're interested!
-              </p>
-              <h3 className="text-6 font-weight-600 mb-3"> My work ethic:</h3>
-              <p>
-                I'm a GSD girl. I take my responsibility seriously, and
-                delivering work on time without sacrificing the quality is my
+                I'm a GSD girl. I take my responsibilities seriously, and
+                delivering work on time without sacrificing quality is my
                 priority. When I don't have any items on my to-do list, I like
-                to cook nice meals or spend some time in nature.
+                to cook nice meals or spend time in nature.
+              </p>
+              <p>
+                This website serves as my CS portofolio; please email me for my
+                CV if you're interested!
               </p>
             </div>
             <div className="col-lg-4 mt-5 mt-lg-0">

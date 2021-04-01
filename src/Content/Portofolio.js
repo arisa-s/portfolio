@@ -73,7 +73,6 @@ const Portofolio = () => {
                       isOpen={isCampOpen}
                       onRequestClose={() => setIsCampOpen(false)}
                       overlayClassName="Overlay"
-                      className="container ajax-container modal-content"
                     >
                       <a>
                         <span
@@ -112,7 +111,7 @@ const Portofolio = () => {
                       isOpen={isAnimatorOpen}
                       onRequestClose={() => setIsAnimatorOpen(false)}
                       overlayClassName="Overlay"
-                      className="container ajax-container modal-content"
+                      preventScroll={false}
                     >
                       <a>
                         <span
@@ -151,7 +150,6 @@ const Portofolio = () => {
                       isOpen={isGardenOpen}
                       onRequestClose={() => setIsGardenOpen(false)}
                       overlayClassName="Overlay"
-                      className="container ajax-container modal-content"
                     >
                       <a>
                         <span
@@ -191,7 +189,6 @@ const Portofolio = () => {
                       isOpen={isPolitenessOpen}
                       onRequestClose={() => setIsPolitenessOpen(false)}
                       overlayClassName="Overlay"
-                      className="container ajax-container modal-content"
                     >
                       <a>
                         <span

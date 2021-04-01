@@ -36,17 +36,20 @@ class Politeness extends Component {
           <div className="col-sm-5">
             <h4 className="text-4 font-weight-600">Project Info:</h4>
             <p>
-              This is my final project for NLP class. This notebook showcases
-              supervised machine learning model that classifies text as
+              This is my final project for my NLP class. This notebook showcases
+              a supervised machine learning model that classifies text input as
               'impolite', 'neutral', or 'polite'.
             </p>
             <h4 className="text-4 font-weight-600">Lesson learned:</h4>
             <p>
-              Through this project, I had some chance to experiment with many
-              existing liberary to build desired model which included a lot of
-              readings. Having good understanding of basic concept of NLP helped
-              me to see advantage/limitation of each package, and choose the
-              right ones for my project.
+              Throughout this project, I got the chance to experiment with many
+              libraries that offered the functionality necessary to build my
+              model. Consequently, I had to read a great deal of documentation.
+              Having a strong conceptual understanding of NLP helped me to
+              identify the advantages and limitations of each package, and
+              ultimately to choose the right ones for my project. As an added
+              benefit, I gained familiarity with regular expressions, which I've
+              since found frequent use-cases for throughout other projects.
             </p>
 
             <ul className="list-style-2">

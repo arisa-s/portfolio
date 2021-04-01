@@ -50,19 +50,20 @@ class Garden extends Component {
             <h4 className="text-4 font-weight-600">Project Info:</h4>
             <p>
               This is a Java Swing / MySQL application that helps gardeners to
-              keep track of their gardening work. Application allows users to
-              add their seed inventory, keep track of the growing process of
-              each plant, and manage their tasks.
+              keep track of their gardening work. The application allows users
+              to add seed inventory, keep track of the growing process of each
+              plant, and manage tasks.
             </p>
             <h4 className="text-4 font-weight-600">Lesson learned:</h4>
             <p>
-              For this project, I focus on back-end work so I
+              For this project, I focused on back-end work so I
               designed/implemented a complex SQL database that organizes eight
-              data domains. Using SQL database (rather than non relational
-              database) forced me to contemplate on the data organization
-              structure upfront, and that helped me to think through the
-              conseptual design of the whole app before implementing. I think
-              his is a great advantage of SQL database.
+              data domains. Using an SQL database (rather than a non-relational
+              database) forced me to contemplate the way in which I would
+              structure data upfront, which helped me to think through the
+              conceptual design of the whole app before implementation.
+              Ultimately, the constraints inherent in relational databases can
+              work to the developer's advantage.
             </p>
 
             <ul className="list-style-2">
