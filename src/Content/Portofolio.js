@@ -89,7 +89,7 @@ const Portofolio = () => {
                       <h5 className="text-white font-weight-400 font-bold">
                         Camp
                       </h5>
-                      <span className="text-light">Category</span>{" "}
+                      <span className="text-light">Web app</span>{" "}
                     </div>
                   </div>
                 </div>
@@ -128,7 +128,7 @@ const Portofolio = () => {
                       <h5 className="text-white font-weight-400 font-bold">
                         Animator
                       </h5>
-                      <span className="text-light">Category</span>{" "}
+                      <span className="text-light">Java Project</span>{" "}
                     </div>
                   </div>
                 </div>
@@ -167,7 +167,7 @@ const Portofolio = () => {
                       <h5 className="text-white font-weight-400 font-bold">
                         Garden Manager
                       </h5>
-                      <span className="text-light ">Category</span>{" "}
+                      <span className="text-light ">Java Project</span>{" "}
                     </div>
                   </div>
                 </div>
@@ -206,7 +206,7 @@ const Portofolio = () => {
                       <h5 className="text-white font-weight-400 font-bold">
                         Politeness Classifier
                       </h5>
-                      <span className="text-light">Category</span>{" "}
+                      <span className="text-light">NLP</span>{" "}
                     </div>
                   </div>
                 </div>

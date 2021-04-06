@@ -51,7 +51,7 @@ class About extends Component {
                     <center>
                       <img
                         src={profile}
-                        className=" align-middle img-fluid z-depth-1 rounded-circle w-50 mb-4"
+                        className="align-middle img-fluid z-depth-1 rounded-circle w-50 mb-4"
                         alt=""
                       />
                     </center>
