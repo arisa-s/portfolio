@@ -28,3 +28,11 @@
 .fa-times:hover {
   color: red;
 }
+
+.imglink:hover {
+  opacity: 80%;
+}
+
+.imglink {
+  padding: 30px;
+}

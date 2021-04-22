@@ -2,11 +2,13 @@ import React, { Component } from "react";
 import camp from "../images/projects/camp-cover.jpg";
 import garden from "../images/projects/garden-cover.jpg";
 import animator from "../images/projects/animator-cover2.jpg";
+import recipe from "../images/projects/recipe-cover.png";
 import politeness from "../images/projects/polite-cover.jpg";
 import Animator from "../projects/Animator.js";
 import Camp from "../projects/Camp.js";
 import Garden from "../projects/Garden";
 import Politeness from "../projects/Politeness";
+import Recipe from "../projects/Recipe";
 import ReactModal from "react-modal";
 ReactModal.setAppElement("#root");
 
@@ -15,6 +17,7 @@ const Portofolio = () => {
   const [isPolitenessOpen, setIsPolitenessOpen] = React.useState(false);
   const [isGardenOpen, setIsGardenOpen] = React.useState(false);
   const [isAnimatorOpen, setIsAnimatorOpen] = React.useState(false);
+  const [isRecipeOpen, setIsRecipeOpen] = React.useState(false);
 
   return (
     <section id="portfolio" className="section bg-light">
@@ -58,6 +61,44 @@ const Portofolio = () => {
 
         <div className="portfolio popup-ajax-gallery">
           <div className="row portfolio-filter">
+            <div className="col-sm-6 col-lg-4 web ml">
+              <div className="portfolio-box rounded my-3">
+                <div className="portfolio-img rounded">
+                  {" "}
+                  <img className="img-fluid d-block" src={recipe} alt="" />
+                  <div className="portfolio-overlay">
+                    {" "}
+                    <a
+                      className="popup-ajax stretched-link"
+                      onClick={() => setIsRecipeOpen(true)}
+                    ></a>
+                    <ReactModal
+                      isOpen={isRecipeOpen}
+                      onRequestClose={() => setIsRecipeOpen(false)}
+                      overlayClassName="Overlay"
+                    >
+                      <a>
+                        <span
+                          className="float-right"
+                          aria-hidden="true"
+                          onClick={() => setIsRecipeOpen(false)}
+                        >
+                          <i className="fas fa-times cross"></i>
+                        </span>
+                      </a>
+                      <Recipe />
+                    </ReactModal>
+                    <div className="portfolio-overlay-details">
+                      <h5 className="text-white font-weight-400 font-bold">
+                        Recipe Thief
+                      </h5>
+                      <span className="text-light">Web app</span>{" "}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="col-sm-6 col-lg-4 web">
               <div className="portfolio-box rounded my-3">
                 <div className="portfolio-img rounded">
@@ -100,45 +141,6 @@ const Portofolio = () => {
               <div className="portfolio-box rounded my-3">
                 <div className="portfolio-img rounded">
                   {" "}
-                  <img className="img-fluid d-block" src={animator} alt="" />
-                  <div className="portfolio-overlay">
-                    {" "}
-                    <a
-                      className="popup-ajax stretched-link"
-                      onClick={() => setIsAnimatorOpen(true)}
-                    ></a>
-                    <ReactModal
-                      isOpen={isAnimatorOpen}
-                      onRequestClose={() => setIsAnimatorOpen(false)}
-                      overlayClassName="Overlay"
-                      preventScroll={false}
-                    >
-                      <a>
-                        <span
-                          className="float-right"
-                          aria-hidden="true"
-                          onClick={() => setIsAnimatorOpen(false)}
-                        >
-                          <i className="fas fa-times cross"></i>
-                        </span>
-                      </a>
-                      <Animator />
-                    </ReactModal>
-                    <div className="portfolio-overlay-details">
-                      <h5 className="text-white font-weight-400 font-bold">
-                        Animator
-                      </h5>
-                      <span className="text-light">Java Project</span>{" "}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-sm-6 col-lg-4 java">
-              <div className="portfolio-box rounded my-3">
-                <div className="portfolio-img rounded">
-                  {" "}
                   <img className="img-fluid d-block" src={garden} alt="" />
                   <div className="portfolio-overlay">
                     {" "}
@@ -168,6 +170,45 @@ const Portofolio = () => {
                         Garden Manager
                       </h5>
                       <span className="text-light ">Java Project</span>{" "}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-sm-6 col-lg-4 java">
+              <div className="portfolio-box rounded my-3">
+                <div className="portfolio-img rounded">
+                  {" "}
+                  <img className="img-fluid d-block" src={animator} alt="" />
+                  <div className="portfolio-overlay">
+                    {" "}
+                    <a
+                      className="popup-ajax stretched-link"
+                      onClick={() => setIsAnimatorOpen(true)}
+                    ></a>
+                    <ReactModal
+                      isOpen={isAnimatorOpen}
+                      onRequestClose={() => setIsAnimatorOpen(false)}
+                      overlayClassName="Overlay"
+                      preventScroll={false}
+                    >
+                      <a>
+                        <span
+                          className="float-right"
+                          aria-hidden="true"
+                          onClick={() => setIsAnimatorOpen(false)}
+                        >
+                          <i className="fas fa-times cross"></i>
+                        </span>
+                      </a>
+                      <Animator />
+                    </ReactModal>
+                    <div className="portfolio-overlay-details">
+                      <h5 className="text-white font-weight-400 font-bold">
+                        Animator
+                      </h5>
+                      <span className="text-light">Java Project</span>{" "}
                     </div>
                   </div>
                 </div>
