@@ -46,7 +46,7 @@ class Politeness extends Component {
             <p>
               This app is a work in progress, but you can access the beta
               version via the link below. With this version, you can scrape,
-              save and view the recipes. More functionality to come ;)
+              save and view the recipes. More functionality to come! Note that the website is responsive YET, it only supports desktop and tablet view (mobile view coming soon).
             </p>
 
             <ul className="list-style-2">
