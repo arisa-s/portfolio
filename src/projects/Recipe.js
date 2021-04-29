@@ -25,7 +25,7 @@ class Politeness extends Component {
             >
               <div className="item imglink">
                 {" "}
-                <a href="https://recipe-thief-client-next.vercel.app/">
+                <a href="https://www.recipe-thief.com">
                   <img className="img-fluid " alt="" src={demo} />
                 </a>{" "}
               </div>
@@ -66,7 +66,7 @@ class Politeness extends Component {
                 </span>
 
                 <a
-                  href="https://recipe-thief-client-next.vercel.app/"
+                  href="https://www.recipe-thief.com"
                   target="_blank"
                 >
                   Recipe Thief
